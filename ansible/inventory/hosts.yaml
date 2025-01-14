@@ -1,0 +1,8 @@
+---
+kubernetes:
+  children:
+    controllers:
+      hosts:
+        "prohost1":
+          ansible_user: "brauni"
+          ansible_host: "100.99.99.221"
